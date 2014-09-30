@@ -51,7 +51,7 @@ function handler(info, req, next) {
         var stream = fs.createWriteStream(file, {flags: 'w'});
         process.env.CLI_TOOLKIT_HELP_STYLE='man';
         process.env.CLI_TOOLKIT_HELP_CMD=cmd;
-        help.call(scope, true, function() {
+        help.call(scope, true, req, function() {
           delete process.env.CLI_TOOLKIT_HELP_CMD;
           delete process.env.CLI_TOOLKIT_HELP_STYLE;
           stream.end(function() {
