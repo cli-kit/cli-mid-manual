@@ -2,7 +2,7 @@ var fs = require('fs');
 var path = require('path');
 var spawn = require('child_process').spawn;
 var help = require('cli-mid-help').action;
-var man = require('cli-help').documents.man;
+var man = help.documents.man;
 
 function open(file, exit, next) {
   process.env.CLI_TOOLKIT_HELP_CMD = '';
