@@ -24,7 +24,7 @@
     "action"
   ],
   "dependencies": {
-    "cli-help": "0.0.4",
+    "cli-help": "0.0.5",
     "cli-mid-help": "^1.0.1"
   },
   "devDependencies": {
