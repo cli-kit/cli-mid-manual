@@ -24,7 +24,7 @@
     "action"
   ],
   "dependencies": {
-    "cli-mid-help": "~1.0.15"
+    "cli-mid-help": "~1.0.16"
   },
   "devDependencies": {
     "chai": "^1.9.1",
