@@ -1,6 +1,6 @@
 {
   "name": "cli-mid-manual",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "Help command manual middleware",
   "author": "muji <noop@xpm.io>",
   "repository": {
